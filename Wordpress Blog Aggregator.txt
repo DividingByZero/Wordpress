@@ -4,7 +4,7 @@ This is the correct way to do a blog aggregator.  There is no need to initialize
 
 <div class="content">
     <?php
-	$url = "http://".$_SERVER['HTTP_HOST']."/shop/news/category/news-articles/?feed=rss2";
+	$url = "http://".$_SERVER['HTTP_HOST']."/?feed=rss2";
 	$rss = simplexml_load_file($url);
 	$count = 0;
 	$posts = 2;
