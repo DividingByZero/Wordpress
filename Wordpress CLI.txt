@@ -1,0 +1,19 @@
+wp search-replace 'http://loucksassociates.firstscribe.com/' 'http://www.loucksinc.com/' --skip-columns=guid --path='./' --allow-root
+
+sudo -u redstone_2015 php wp-cli.phar search-replace 'http://tollgas.firstscribe.com' 'http://www.tollgas.com' --skip-columns=guid --path='./' --allow-root
+
+http://wp-cli.org/commands/search-replace/
+
+Install: http://wp-cli.org/
+
+
+
+
+http://redstonegrill.firstscribe.com
+
+http://www.redstonegrill.com
+
+
+http://tollgas.firstscribe.com
+
+http://www.tollgas.com
