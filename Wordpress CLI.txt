@@ -2,8 +2,8 @@ http://wp-cli.org/commands/search-replace/
 
 Install: http://wp-cli.org/
 
-wp search-replace 'http://loucksassociates.firstscribe.com/' 'http://www.loucksinc.com/' --skip-columns=guid --path='./' --allow-root
+wp search-replace 'http://old.com/' 'http://new.com/' --skip-columns=guid --path='./' --allow-root
 
-sudo -u redstone_2015 php wp-cli.phar search-replace 'http://tollgas.firstscribe.com' 'http://www.tollgas.com' --skip-columns=guid --path='./' --allow-root
+sudo -u user php wp-cli.phar search-replace 'http://old.com' 'http://new.com' --skip-columns=guid --path='./' --allow-root
 
 
