@@ -1,5 +1,6 @@
 <?php /* 
-This is the correct way to do a blog aggregator.  There is no need to initialize word press's framework, embed a bunch of code, etc.  Just point it to the right RSS and you can aggregate any blog easily.
+This is the correct way to do a blog aggregator.  There is no need to initialize word press's framework, embed a bunch of code, etc.  
+Just point it to the right RSS and you can aggregate any blog easily.
 */ ?>
 
 <div class="content">
